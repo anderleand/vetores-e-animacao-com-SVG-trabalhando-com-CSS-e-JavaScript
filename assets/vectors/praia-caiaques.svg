@@ -212,7 +212,7 @@
       }
 
       #praia {
-        animation: inicia-pagina 2.5s ease-in-out forwards 1;
+        animation: inicia-pagina 2000ms ease-in-out both;
       }
 
       @keyframes movimento-caiaques-1e2 {
@@ -247,7 +247,7 @@
 
       @keyframes inicia-pagina {
         from {
-          transform: translate(0, -2000px)
+          transform: translate(0, -100%)
         }
       }
 
